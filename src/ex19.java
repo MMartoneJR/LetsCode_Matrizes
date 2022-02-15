@@ -1,7 +1,4 @@
-package Matrizes;
-
 import java.util.Random;
-import java.util.concurrent.LinkedTransferQueue;
 
 public class ex19 {
     public static void main(String[] args) {

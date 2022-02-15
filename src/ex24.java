@@ -30,7 +30,6 @@ public class ex24 {
 
         int produtoDestacado = (matriz[6][8]*matriz[7][9]*matriz[8][10]*matriz[9][11]);
         int temp = 0, maiorProduto = 0;
-        int[] valoresSomados = {matriz[6][8],matriz[7][9],matriz[8][10],matriz[9][11]};
         int valorHorizontal = 0, valorVertical = 0, valorDiagonal = 0, valorDiagonalSec = 0;
         String direcao = "diagonal";
         System.out.println("Maior produto original: "+produtoDestacado);
