@@ -127,6 +127,7 @@ public class Ex25 {
         if ((tabuleiro[0][2]==tabuleiro[1][1]) && (tabuleiro[0][2]==tabuleiro[2][0]) && tabuleiro[0][2]!=0){
             return tabuleiro[0][2];
         }
+        //Checa se ainda há posições disponíveis
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 if (tabuleiro[i][j] == 0) {
